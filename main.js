@@ -179,7 +179,7 @@ function generateTestCases(filePath)
 	}
 
 
-	fs.writeFileSync('../test/test.js', content, "utf8");
+	fs.writeFileSync('./test/test.js', content, "utf8");
 
 }
 
